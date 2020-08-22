@@ -1,0 +1,63 @@
+.container {
+	max-width: 86%;
+	margin: 0 auto;
+}
+.image-sprites {
+    display: flex;
+    justify-content: center;
+}
+.image-sprites ul {
+	list-style: none;
+	padding-left: 0px;
+}
+.image-sprites ul li {
+    float: left;
+}
+.image-sprites ul li a {
+	background-image: url(./media/social-icons.jpg);
+	background-repeat: no-repeat;
+	background-size: 300px;
+	background-position: 0px 0px;
+	width: 25px;
+	height: 25px;
+	float: left;
+	transition: 1s;
+	margin: 10px 5px;
+}
+.image-sprites ul li:hover a {
+	background-position: 0px -28px;
+}
+.image-sprites ul li:nth-child(1) a {
+    margin-left: 0px;
+}
+.image-sprites ul li:nth-child(2) a {
+    background-position: -83px 0px;
+}
+.image-sprites ul li:hover:nth-child(2) a {
+    background-position: -83px -28px;
+}
+.image-sprites ul li:nth-child(3) a {
+    background-position: -220px 0px;
+}
+.image-sprites ul li:hover:nth-child(3) a {
+    background-position: -220px -28px;
+}
+.image-sprites ul li:nth-child(4) a {
+    background-position: -138px 0px;
+}
+.image-sprites ul li:hover:nth-child(4) a {
+    background-position: -138px -28px;
+}
+.image-sprites ul li:nth-child(5) a {
+    background-position: -28.5px 0px;
+}
+.image-sprites ul li:hover:nth-child(5) a {
+    background-position: -28.5px -28px;
+}
+.image-sprites ul li:nth-child(6) a {
+    background-position: -56px 0px;
+    margin-right: 0px;
+}
+.image-sprites ul li:hover:nth-child(6) a {
+    background-position: -56px -28px;
+}
